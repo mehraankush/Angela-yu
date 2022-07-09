@@ -1,0 +1,27 @@
+h1{
+color: rgb(89, 117, 117);
+height: 100;
+width: 100;
+}
+
+img{
+    background-color: rgb(16, 28, 28);
+    max-width: 520px;
+    max-height: 520px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10%;
+
+}
+img:hover{
+    background-color: yellow;
+}
+
+
+body{
+    background-color:#F0EBE3;
+}
+
+#heading{
+    color: blue;
+}
