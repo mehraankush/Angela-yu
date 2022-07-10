@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 0px;
+    /*oe we can use margin :0 auto 0 auto; it will do the same work*/
+}
+
+h1 {
+    font-size: 431.25%;
+    /* also can use 4.3125rem*/
+    font-family: 'Sacramento', cursive;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: rgb(123, 94, 56);
+}
+
+.a {
+    background-color:  #66BFBF;
+    width: 100%;
+    padding-top: 100px
+}
+
+.image {
+    height: 900px;
+    width: 1500px;
+    border-radius: 2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.me {
+    height: 200px;
+    width: 200px;
+}
+
+.cplus {
+    height: 150px;
+    width: 150px;
+ /*   float: left ;
+    margin-right: 30px;*/
+}
+
+.c {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    color: #54BAB9;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+hr {
+   /* border: dotted #eaf9f5 20px;*/
+    border-style: none;
+    border-color: rgb(100, 105, 110) ;
+    height: 0px;
+    width: 80%;
+    border-top-style: dotted;
+}
+
+h3 {
+    font-family: cursive;
+}
+.skill-font{
+    color: #1B2430;
+    font-family:Merriweather;
+}
+p{ color: #420516;
+   font-style:italic;
+   font-weight: bolder; 
+}
+.my-picture{
+    position:relative;
+    left: 400px;
+}
+.my-dicription{
+    position: relative;
+    left: 400px;
+    text-align: left;
+}
+.intro{
+    position: relative;
+    left: 400px;
+}
+.contect{
+    margin: 40px auto 50px;
+}
+.myButton {
+    margin-bottom: 30px;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	padding:13px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+    position:relative;
+	top:1px;
+}
+a{
+    color: #11999e;
+    font-family:'Merriweather', serif ;
+    margin: 10px 10px;
+    text-decoration:none ;
+}
+a:hover{
+    color: #eaf6f6;
+}
+
+.bottom{
+    background-color: #66BFBF;
+    height: 100px;
+    width: 1600px;
+    padding: 40px 0px 20px;
+}
+.bottom-dicription{
+    padding: 20px;
+}
+.copyright{
+    color:#eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+/*.skill-row {
+    width: 20%;
+   margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.skill.col {
+    width: 20%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+
+}
+.dicplus{
+  clear: right;
+}
+.disc{
+    clear: left;
+}*/
